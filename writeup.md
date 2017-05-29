@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/color_fit.jpg "Fit Visual"
 [image6]: ./output_images/result/image0000.jpg "Output"
 [image7]: ./output_images/bad1.jpg "Bad Image"
-[video1]: ./output_images/project_video.mp4 "Video"
+[video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -113,7 +113,7 @@ I implemented this step in step #8 in `advancedLane.ipynb`.  Here is an example 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./output_video.mp4)
+Here's a [link to my video result](./output_images/output_video.mp4)
 
 I first write all images to output_images/result/ , then use video.py in behavior cloning project to generate a video.
 I tried cv2.VideoWriter, it succeed in open the writer, but cannot write images to video.
