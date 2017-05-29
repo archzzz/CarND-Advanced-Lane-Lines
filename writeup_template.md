@@ -19,13 +19,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./writeup_img/undistort.jpg "Undistorted"
+[image1]: ./output_images/undistort.jpg "Undistorted"
 [image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./writeup_img/binary.jpg "Binary Example"
-[image4]: ./writeup_img/perspective.jpg "Warp Example"
-[image5]: ./writeup_img/color_fit.jpg "Fit Visual"
-[image6]: ./result/image0000.jpg "Output"
-[image7]: ./result/bad1.jpg "Bad Image"
+[image3]: ./output_images/binary.jpg "Binary Example"
+[image4]: ./output_images/perspective.jpg "Warp Example"
+[image5]: ./output_images/color_fit.jpg "Fit Visual"
+[image6]: ../output_images/result/image0000.jpg "Output"
+[image7]: ./output_images/bad1.jpg "Bad Image"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -115,8 +115,9 @@ I implemented this step in step #8 in `advancedLane.ipynb`.  Here is an example 
 
 Here's a [link to my video result](./output_video.mp4)
 
-I first write all images to result/ , then use video.py in behavior cloning project to generate a video.
+I first write all images to output_images/result/ , then use video.py in behavior cloning project to generate a video.
 I tried cv2.VideoWriter, it succeed in open the writer, but cannot write images to video.
+
 ---
 
 ### Discussion
