@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/color_fit.jpg "Fit Visual"
 [image6]: ./output_images/result/image0000.jpg "Output"
 [image7]: ./output_images/bad1.jpg "Bad Image"
-[video1]: ./project_video.mp4 "Video"
+[video1]: ./output_images/project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
